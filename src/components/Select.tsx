@@ -256,7 +256,7 @@ const Select: React.FC<SelectProps> = ({
                         <div className="px-1.5">
                             <ChevronIcon
                                 className={`transition duration-300 w-6 h-6 p-0.5${
-                                    open ? " transform rotate-90 text-gray-500" : " text-gray-300"
+                                    open ? " transform rotate-90 text-gray-500" : " rtl:rotate-180 text-gray-300"
                                 }`}
                             />
                         </div>

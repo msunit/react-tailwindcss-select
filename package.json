@@ -1,6 +1,6 @@
 {
-    "name": "react-tailwindcss-select",
-    "version": "1.8.5",
+    "name": "mzn-react-select",
+    "version": "1.0.14",
     "description": "A select input made with React js and Tailwind CSS",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -16,7 +16,7 @@
         "pret": "prettier -c .",
         "pret:fix": "prettier -w .",
         "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-        "build": "npm run pret && npm run lint && npm run clean && rollup -c && npm run tailwind-build",
+        "build": "npm run lint && npm run clean && rollup -c && npm run tailwind-build",
         "dev": "next dev -p 8888"
     },
     "repository": {
